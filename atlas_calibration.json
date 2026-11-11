@@ -1,0 +1,18 @@
+{
+  "ALL": {
+    "calibration_parcels": 188,
+    "half_width": 0.2885914903150544,
+    "mean_heldout_coverage": 0.906095744680851,
+    "mean_heldout_interval_width": 0.5239702169189316,
+    "nominal_coverage": 0.9,
+    "calibration_period": "2022-2024"
+  },
+  "HUMAN_OBSERVATION": {
+    "calibration_parcels": 149,
+    "half_width": 0.2550314961419474,
+    "mean_heldout_coverage": 0.9045066666666667,
+    "mean_heldout_interval_width": 0.4655591885288517,
+    "nominal_coverage": 0.9,
+    "calibration_period": "2022-2024"
+  }
+}
