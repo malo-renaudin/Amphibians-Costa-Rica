@@ -1,0 +1,49 @@
+{
+  "definition": "same parcel, calendar day, normalized recordedBy and datasetKey; missing date/observer kept separate",
+  "date_parsing": "mixed UTC",
+  "human": {
+    "records": 25295,
+    "events": 15679,
+    "multirecord_events": 4235,
+    "train": 76,
+    "validation": 67,
+    "test": 129,
+    "static": {
+      "r2": 0.511356462868191,
+      "spearman": 0.7474916436113656
+    },
+    "recurrent": {
+      "gamma": 0.99,
+      "alpha": 100,
+      "r2": 0.5139964263357875,
+      "spearman": 0.7473644277207772,
+      "mse": 0.01812434058790367
+    }
+  },
+  "all": {
+    "records": 53311,
+    "events": 33342,
+    "multirecord_events": 5948,
+    "train": 129,
+    "validation": 105,
+    "test": 166,
+    "static": {
+      "r2": 0.2639187273726208,
+      "spearman": 0.5914723961151223
+    },
+    "recurrent": {
+      "gamma": 0.9,
+      "alpha": 0.01,
+      "r2": 0.40326370096395503,
+      "spearman": 0.6847899168049167,
+      "mse": 0.026482131166096996
+    }
+  },
+  "limitations": [
+    "Not verified field visits",
+    "Missing date or observer prevents grouping",
+    "Observer identity may vary",
+    "No survey effort or detectability correction",
+    "Event target differs from occurrence target"
+  ]
+}
